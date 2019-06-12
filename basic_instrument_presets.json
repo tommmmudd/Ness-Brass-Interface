@@ -1,0 +1,241 @@
+{
+	"pattrstorage" : 	{
+		"name" : "instrument",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 190.0 ],
+					"flare" : [ 2 ],
+					"length" : [ 4520.0 ],
+					"mouthpiece_diameter" : [ 18.0 ],
+					"mouthpiece_len" : [ 30.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.13274, 0.1394, 0.146 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 4.0 ],
+					"middle_Sections::middle_section_lens" : [ 35.0, 800.0, 1650.0, 1300.0, 400.0 ],
+					"middle_Sections::middle_section_profiles" : [ 5, 8, 11, 11, 15, 30 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 190.0 ],
+					"flare" : [ 2 ],
+					"length" : [ 4520.0 ],
+					"mouthpiece_diameter" : [ 18.0 ],
+					"mouthpiece_len" : [ 30.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.00221, 0.5752, 0.95133 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 4.0 ],
+					"middle_Sections::middle_section_lens" : [ 35.0, 800.0, 1650.0, 1300.0, 400.0 ],
+					"middle_Sections::middle_section_profiles" : [ 5, 8, 11, 11, 15, 30 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 220.0 ],
+					"flare" : [ 2 ],
+					"length" : [ 2740.0 ],
+					"mouthpiece_diameter" : [ 25.0 ],
+					"mouthpiece_len" : [ 30.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.219, 0.2299, 0.2409 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 60.0, 1820.0, 600.0 ],
+					"middle_Sections::middle_section_profiles" : [ 7, 14, 14, 30 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 220.0 ],
+					"flare" : [ 2 ],
+					"length" : [ 2740.0 ],
+					"mouthpiece_diameter" : [ 25.0 ],
+					"mouthpiece_len" : [ 30.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.00365, 0.5839, 0.9854 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 60.0, 1820.0, 600.0 ],
+					"middle_Sections::middle_section_profiles" : [ 7, 14, 14, 30 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 130.0 ],
+					"flare" : [ 6 ],
+					"length" : [ 1400.0 ],
+					"mouthpiece_diameter" : [ 20.0 ],
+					"mouthpiece_len" : [ 10.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.4286, 0.45, 0.4714 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 80.0, 200.0, 545.0 ],
+					"middle_Sections::middle_section_profiles" : [ 4, 9, 12, 12 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 130.0 ],
+					"flare" : [ 6 ],
+					"length" : [ 1400.0 ],
+					"mouthpiece_diameter" : [ 20.0 ],
+					"mouthpiece_len" : [ 10.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.00714, 0.5, 0.9286 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 80.0, 200.0, 545.0 ],
+					"middle_Sections::middle_section_profiles" : [ 4, 9, 12, 12 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 0.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 130.0 ],
+					"flare" : [ 6 ],
+					"length" : [ 1400.0 ],
+					"mouthpiece_diameter" : [ 20.0 ],
+					"mouthpiece_len" : [ 10.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.4286, 0.45, 0.4714 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 80.0, 200.0, 695.0 ],
+					"middle_Sections::middle_section_profiles" : [ 4, 9, 12, 60 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 1.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"bypass_tube_lens" : [ 130.699997, 57.5, 199.800003 ],
+					"def_tube_lens" : [ 20.0, 20.0, 20.0 ],
+					"end_diameter" : [ 130.0 ],
+					"flare" : [ 6 ],
+					"length" : [ 1400.0 ],
+					"mouthpiece_diameter" : [ 20.0 ],
+					"mouthpiece_len" : [ 10.0 ],
+					"sample_rate" : [ 1.0 ],
+					"temperature" : [ 20 ],
+					"valve_positions" : [ 0.00714, 0.5, 0.9286 ],
+					"middle_Sections::middleSections" : [ -1 ],
+					"middle_Sections::middleSectionCount" : [ 2.0 ],
+					"middle_Sections::middle_section_lens" : [ 80.0, 200.0, 695.0 ],
+					"middle_Sections::middle_section_profiles" : [ 4, 9, 12, 60 ],
+					"middle_Sections::middle_section_type_1" : [ 2.0 ],
+					"middle_Sections::middle_section_type_2" : [ 0.0 ],
+					"middle_Sections::middle_section_type_3" : [ 2.0 ],
+					"middle_Sections::middle_section_type_4" : [ 0.0 ],
+					"middle_Sections::middle_section_type_5" : [ 0.0 ],
+					"middle_Sections::middle_section_type_6" : [ 0.0 ],
+					"middle_Sections::middle_section_type_7" : [ 0.0 ],
+					"middle_Sections::middle_section_type_8" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
