@@ -1,0 +1,8 @@
+output.*
+inst_out.m
+score_out.m
+ness-brass
+*.wav
+*.reapeaks
+*.png
+progress.txt
