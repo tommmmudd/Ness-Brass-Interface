@@ -37,7 +37,15 @@ var vibamp = new Array();
 var vibampMax = 1.0;
 var vibfreq = new Array();
 var vibfreqMax = 15;
+var tremamp = new Array();
+tremamp = [[0, 0]];
+var tremampMax = 1.0;
+var tremfreq = new Array();
+tremfreq = [[0, 0]];
+var tremfreqMax = 55;
 
+var valvevibfreq = new Array(valveCount);
+var valvevibamp = new Array(valveCount);
 
 //************************
 // INSTRUMENT VARIABLES
@@ -70,7 +78,10 @@ function bang() {
 	outlet(3, "clear");
 	writeScoreHeader();
 	writeScoreMain();
-	writeValveOpenings(totalTime);
+	//writeValveOpenings(totalTime);
+	writeValveData(valves, "valveopening");
+	writeValveData(valvevibfreq, "valvevibfreq");
+	writeValveData(valvevibamp, "valvevibfreq");
 	//combined_score += scoreFooter();
 	
 	//outlet(0, combined_score);
@@ -95,7 +106,11 @@ function clearPressure() {
 }
 function clearValves() {
 	valves = new Array(valveCount);
-	for (var v=0; v<valveCount; v++) {valves[v] = new Array(); post(v);}
+	valvevibfreq = new Array(valveCount);
+	valvevibamp = new Array(valveCount);
+	for (var v=0; v<valveCount; v++) {valves[v] = new Array(); valvevibfreq[v] = [[0.0, 0]]; valvevibamp[v] = [[0.0, 0]];}
+	for (var v=0; v<valveCount; v++) {valves[v] = new Array(); valvevibfreq[v] = [[0.0, 0]]; valvevibamp[v] = [[0.0, 0]];}
+	for (var v=0; v<valveCount; v++) {valves[v] = new Array(); valvevibfreq[v] = [[0.0, 0]]; valvevibamp[v] = [[0.0, 0]];}
 }
 
 // Adding
@@ -117,6 +132,12 @@ function addPair() {
 	} else if (type == "noise") {
 		vals[1] = args[2];
 		noise.push(vals);
+	} else if (type == "tremamp") {
+		vals[1] = args[2] * tremampMax;
+		tremamp.push(vals);
+	} else if (type == "tremfreq") {
+		vals[1] = args[2] * tremfreqMax;
+		tremfreq.push(vals);
 	}
 }
 function addValve() {
@@ -192,6 +213,19 @@ function writeValveOpenings(maxT) {
 	}
 	outlet(0, "];\n\n");
 }
+function writeValveData(dataArray, arrayName) {
+	outlet(0, arrayName+"=[");
+	for (var i=0; i<dataArray[0].length; i++) {
+		// get the time from the first valve
+		var tempScore = dataArray[0][i][0];
+		for (var v=0; v<valveCount; v++) {
+			tempScore += ","+dataArray[v][i][1];
+		}
+		tempScore +="; ";
+		outlet(0, tempScore);
+	}
+	outlet(0, "];\n\n");
+}
 
 
 function writeScoreHeader() {
@@ -219,6 +253,13 @@ function writeScoreMain() {
 	tempScore += "noiseamp=[";
 	tempScore += writePairs(noise);
 	tempScore += "];\n\n";
+	tempScore = "tremamp=[";
+	tempScore += writePairs(tremamp);
+	tempScore += "];\n\n";
+	tempScore += "tremfreq=[";
+	tempScore += writePairs(tremfreq);
+	tempScore += "];\n\n";
+
 	outlet(0, tempScore);
 }
 

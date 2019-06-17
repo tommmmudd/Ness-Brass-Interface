@@ -1,1 +1,1 @@
-1, score_preset_1 delete 1;2, preset_2 delete 2;3, preset3 delete 3;
+1, score_preset_1 delete 1;2, preset_2 delete 2;3, preset3 delete 3;4, preset4 delete 4;
