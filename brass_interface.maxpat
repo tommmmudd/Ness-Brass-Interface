@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 552.0, 207.0 ],
+		"rect" : [ 0.0, 57.0, 585.0, 223.0 ],
 		"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2204,12 +2204,15 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-45",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 739.0, 31.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 540.0, 199.0, 31.0, 19.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -2652,6 +2655,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"workspacedisabled" : 1,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-47",
@@ -4559,7 +4563,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u152002671"
+									"varname" : "u462003588"
 								}
 
 							}
@@ -4954,7 +4958,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u614002669"
+													"varname" : "u108003586"
 												}
 
 											}
@@ -10619,7 +10623,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u953002667"
+									"varname" : "u064003584"
 								}
 
 							}
@@ -12805,7 +12809,7 @@
 									"patching_rect" : [ 173.0, 85.0, 100.0, 42.253521 ],
 									"pic" : "",
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 18.370062, 217.0, 91.690141 ]
+									"presentation_rect" : [ 75.0, 18.370062, 217.0, 91.69014 ]
 								}
 
 							}
@@ -15758,7 +15762,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 560.0, 411.0, 140.0, 22.0 ],
 									"style" : "",
-									"text" : "loop: 4.81028"
+									"text" : "loop: 5.67437"
 								}
 
 							}
@@ -17746,13 +17750,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-143",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.0, 919.5, 185.0, 18.0 ],
+					"patching_rect" : [ 478.0, 919.5, 185.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 60.0, 215.0, 18.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "created audio file in approx 5.67 seconds"
 				}
 
 			}
@@ -17767,7 +17773,8 @@
 					"patching_rect" : [ 478.0, 880.5, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 43.0, 215.0, 20.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "Processing complete!"
 				}
 
 			}
@@ -18923,7 +18930,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 1122.0, 280.0, 108.0, 21.0 ],
-					"save" : [ "#N", "detonate", "brass_det", ";", "#X", "setparam", 0, "Time", 0, 0, 999999, 0, 1000, 200, 0, ";", "#X", "setparam", 1, "Pitch", 0, 0, 127, 60, 12, 4, 0, ";", "#X", "setparam", 2, "Vel", 0, 0, 127, 64, 12, 4, 0, ";", "#X", "setparam", 3, "Dur", 0, 1, 99999, 200, 800, 200, 0, ";", "#X", "setparam", 4, "Chan", 0, 1, 16, 1, 8, 1, 0, ";", "#X", "setparam", 5, "Track", 0, 1, 32, 1, 8, 1, 0, ";", "#X", "setparam", 6, "X1", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "setparam", 7, "X2", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "restore", ";", "#X", 78, 62, 64, 4687, 1, 1, 0, 0, ";", "#X", 328, 49, 64, 3786, 1, 1, 0, 0, ";", "#X", 3677, 56, 64, 1765, 1, 1, 0, 0, ";", "#X", 453, 69, 64, 4797, 1, 1, 0, 0, ";", "#X", 1250, 51, 64, 2365, 1, 1, 0, 0, ";", "#X", 1812, 45, 64, 1792, 1, 1, 0, 0, ";", "#X", "stop", ";" ],
+					"save" : [ "#N", "detonate", "brass_det", ";", "#X", "setparam", 0, "Time", 0, 0, 999999, 0, 1000, 200, 0, ";", "#X", "setparam", 1, "Pitch", 0, 0, 127, 60, 12, 4, 0, ";", "#X", "setparam", 2, "Vel", 0, 0, 127, 64, 12, 4, 0, ";", "#X", "setparam", 3, "Dur", 0, 1, 99999, 200, 800, 200, 0, ";", "#X", "setparam", 4, "Chan", 0, 1, 16, 1, 8, 1, 0, ";", "#X", "setparam", 5, "Track", 0, 1, 32, 1, 8, 1, 0, ";", "#X", "setparam", 6, "X1", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "setparam", 7, "X2", 0, 0, 999, 0, 80, 20, 0, ";", "#X", "restore", ";", "#X", 78, 62, 64, 4687, 1, 1, 0, 0, ";", "#X", 328, 49, 64, 3487, 1, 1, 0, 0, ";", "#X", 3677, 56, 64, 1765, 1, 1, 0, 0, ";", "#X", 453, 69, 64, 4797, 1, 1, 0, 0, ";", "#X", 1250, 51, 64, 2365, 1, 1, 0, 0, ";", "#X", 1812, 45, 64, 1792, 1, 1, 0, 0, ";", "#X", "stop", ";" ],
 					"style" : "",
 					"text" : "detonate brass_det"
 				}

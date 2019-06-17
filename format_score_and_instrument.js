@@ -253,7 +253,7 @@ function writeScoreMain() {
 	tempScore += "noiseamp=[";
 	tempScore += writePairs(noise);
 	tempScore += "];\n\n";
-	tempScore = "tremamp=[";
+	tempScore += "tremamp=[";
 	tempScore += writePairs(tremamp);
 	tempScore += "];\n\n";
 	tempScore += "tremfreq=[";
