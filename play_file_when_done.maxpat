@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 699.0, 80.0, 1183.0, 967.0 ],
+		"rect" : [ 699.0, 80.0, 781.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1186,6 +1186,8 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1193,7 +1195,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 427.0, 33.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 92.0, 33.0, 22.0 ],
+					"presentation_rect" : [ 37.0, 87.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -1201,6 +1203,8 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1208,7 +1212,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 71.0, 427.0, 34.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 92.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 1.0, 87.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "start"
 				}
@@ -1270,15 +1274,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 14.0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.0, 427.0, 60.0, 23.0 ],
+					"patching_rect" : [ 171.0, 427.0, 56.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 469.0, 92.0, 60.0, 23.0 ],
+					"presentation_rect" : [ 469.0, 93.0, 56.0, 20.0 ],
 					"style" : "",
 					"text" : "duration"
 				}
@@ -1376,15 +1380,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Gill Sans",
-					"fontsize" : 14.0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.0, 254.0, 153.0, 23.0 ],
+					"patching_rect" : [ 244.0, 254.0, 147.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 575.0, 23.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 551.0, 20.0 ],
 					"style" : "",
 					"text" : "file: output.wav"
 				}
