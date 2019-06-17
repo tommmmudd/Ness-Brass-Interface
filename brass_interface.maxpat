@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 57.0, 585.0, 223.0 ],
+		"rect" : [ 34.0, 79.0, 1768.0, 1051.0 ],
 		"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -55,7 +55,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 576.0, 553.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,13 +84,51 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 185.0, 257.0, 59.0, 22.0 ],
+									"style" : "",
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 45.0, 257.0, 59.0, 22.0 ],
+									"style" : "",
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 55.0, 372.0, 59.0, 22.0 ],
+									"style" : "",
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-92",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 185.8255, 33.0, 19.0 ],
+									"patching_rect" : [ 45.0, 197.8255, 40.0, 22.0 ],
 									"style" : "",
 									"text" : "zl reg"
 								}
@@ -99,12 +137,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-88",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 50.0, 19.0 ],
+									"patching_rect" : [ 50.0, 100.0, 63.0, 22.0 ],
 									"style" : "",
 									"text" : "pipe 2000"
 								}
@@ -113,12 +150,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-86",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 107.0, 185.8255, 33.0, 19.0 ],
+									"patching_rect" : [ 185.0, 197.8255, 40.0, 22.0 ],
 									"style" : "",
 									"text" : "zl reg"
 								}
@@ -131,7 +167,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 50.0, 132.0, 133.0, 19.0 ],
+									"patching_rect" : [ 50.0, 132.0, 133.0, 22.0 ],
 									"style" : "",
 									"text" : "sel macintosh windows"
 								}
@@ -140,12 +176,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-27",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.75, 227.0, 111.0, 19.0 ],
+									"patching_rect" : [ 188.25, 285.0, 145.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf %sness-brass.exe"
 								}
@@ -154,12 +189,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-63",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 227.0, 94.0, 19.0 ],
+									"patching_rect" : [ 50.0, 285.0, 122.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf %sness-brass"
 								}
@@ -216,7 +250,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 94.875, 306.0, 30.0, 30.0 ],
+									"patching_rect" : [ 55.0, 413.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -224,14 +258,28 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-95", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-63", 0 ]
 								}
 
@@ -254,6 +302,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
 									"source" : [ "obj-72", 1 ]
 								}
@@ -268,7 +323,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"source" : [ "obj-86", 0 ]
 								}
 
@@ -282,7 +337,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-63", 0 ],
+									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-92", 0 ]
 								}
 
@@ -1116,7 +1171,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 160.0, 302.0, 22.0 ],
+									"patching_rect" : [ 315.0, 160.0, 302.0, 35.0 ],
 									"style" : "",
 									"text" : "/Users/tmudd/Dropbox/NESS_git/Ness-Brass-Interface/"
 								}
