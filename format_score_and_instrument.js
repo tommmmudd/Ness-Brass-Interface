@@ -81,7 +81,7 @@ function bang() {
 	//writeValveOpenings(totalTime);
 	writeValveData(valves, "valveopening");
 	writeValveData(valvevibfreq, "valvevibfreq");
-	writeValveData(valvevibamp, "valvevibfreq");
+	writeValveData(valvevibamp, "valvevibamp");
 	//combined_score += scoreFooter();
 	
 	//outlet(0, combined_score);
