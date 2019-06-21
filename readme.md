@@ -10,7 +10,16 @@ Currently OS X only (probably) as it relies on the [shell.mxo object](https://gi
 # How to use
 
 The interface allows you to create score and instrument files, and to create and listen to the audio files within Max.
-Edit the score parameters or instrument parameters in the score and instrument builder windows, then hit the green button to build the score and instrument files. Hit the button again to actually generate the audio.
+
+1. Open the brass_interface.maxpat file.
+2. Open the Score Builder to edit the score parameters.
+3. The duration of the score/file is determined by the final event in the piano-roll style interface. All the other elements scale to this duration (e.g. the pressure and valve graphs).
+4. Make changes to the instrument in the Instrument Builder window. You can start from a preset instrument, or use the sliders to set different elements.
+5. Once you are happy with both the score and the instrument: 
+    i. press the green button ![green button](http://tommudd.co.uk/ness/button_green.png) to write the score and instrument files.
+    ii. press the red button to create an audio file from these files.
+
+The audio files will be written to the folder and will also appear in Max to listen to.
 
 ![main interface](http://tommudd.co.uk/ness/brass_main.png)
 
