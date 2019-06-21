@@ -16,7 +16,7 @@ The interface allows you to create score and instrument files, and to create and
 3. The duration of the score/file is determined by the final event in the piano-roll style interface. All the other elements scale to this duration (e.g. the pressure and valve graphs).
 4. Make changes to the instrument in the Instrument Builder window. You can start from a preset instrument, or use the sliders to set different elements.
 5. Once you are happy with both the score and the instrument: 
-    - press the green button to write the score and instrument files. ![green button](http://tommudd.co.uk/ness/button_green.png)
+    - press the green button to write the score and instrument files. ![green button](http://tommudd.co.uk/ness/button_green_2.png)
     - press the red button to create an audio file from these files. ![red button](http://tommudd.co.uk/ness/button_red.png)
 
 The audio files will be written to the folder and will also appear in Max to listen to.
